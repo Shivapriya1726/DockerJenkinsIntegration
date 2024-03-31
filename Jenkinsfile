@@ -7,6 +7,7 @@ pipeline {
                     echo "Testing...")
                 }
             }
+        }
         stage('Build') {
             steps {
                 // Build Docker image
